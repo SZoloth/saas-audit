@@ -1,0 +1,2281 @@
+{
+  "generatedAt": "2026-11-27T15:49:44.474Z",
+  "vendors": [
+    {
+      "name": "Vercel",
+      "slug": "vercel",
+      "category": "DevTools",
+      "pricingUrl": "https://vercel.com/pricing",
+      "extracted": {
+        "pricesUsd": [
+          20
+        ],
+        "minPaidUsd": 20,
+        "maxPublicUsd": 20,
+        "hasFreeTier": false,
+        "mentionsSso": true,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": false,
+        "annualSavePct": null,
+        "mentionsAuditLogs": true,
+        "evidenceSnippets": [
+          "eam & project level Audit Logs — — SAML Single Sign-On (SSO) — $300 / month Directory Sync (SC",
+          "up for free Start a free Pro trial Contact Sales Frequently asked questions 01 What currency are Vercel",
+          "plus: Guest & Team access controls SCIM & Directory Sync Managed WAF Rulesets Multi-region com"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "sso-tax"
+      ],
+      "findings": [
+        {
+          "id": "vercel-sso-tax",
+          "kind": "sso-tax",
+          "vendor": "Vercel",
+          "slug": "vercel",
+          "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+          "detail": "Vercel's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+          "pricingUrl": "https://vercel.com/pricing",
+          "severity": 105,
+          "receipt": {
+            "slug": "vercel",
+            "sourceUrl": "https://vercel.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.363Z",
+            "sha256": "915b324cacdd1e96530c44078860aeb161ee350c63468c9a9e3293208f841623",
+            "byteLength": 876,
+            "relPath": "receipts/vercel.json"
+          }
+        },
+        {
+          "id": "vercel-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "Vercel",
+          "slug": "vercel",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "Vercel gates top-tier pricing behind a sales call rather than listing public rates. Highest public tier shown: $20/mo.",
+          "pricingUrl": "https://vercel.com/pricing",
+          "severity": 70,
+          "receipt": {
+            "slug": "vercel",
+            "sourceUrl": "https://vercel.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.363Z",
+            "sha256": "915b324cacdd1e96530c44078860aeb161ee350c63468c9a9e3293208f841623",
+            "byteLength": 876,
+            "relPath": "receipts/vercel.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "vercel",
+        "sourceUrl": "https://vercel.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.363Z",
+        "sha256": "915b324cacdd1e96530c44078860aeb161ee350c63468c9a9e3293208f841623",
+        "byteLength": 876,
+        "relPath": "receipts/vercel.json"
+      }
+    },
+    {
+      "name": "GitHub",
+      "slug": "github",
+      "category": "DevTools",
+      "pricingUrl": "https://github.com/pricing",
+      "extracted": {
+        "pricesUsd": [
+          4,
+          5,
+          21
+        ],
+        "minPaidUsd": 4,
+        "maxPublicUsd": 21,
+        "hasFreeTier": false,
+        "mentionsSso": true,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": false,
+        "annualSavePct": null,
+        "mentionsAuditLogs": true,
+        "evidenceSnippets": [
+          "ailored Authority to Operate (ATO) SAML single sign-on Advanced auditing GitHub Connect 50,000",
+          "er user / month Start a free trial Contact Sales GitHub Enterprise now includes access to GitHub Copilo",
+          "ed Users User provisioning through SCIM Enterprise Account to centrally manage multiple organi"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "sso-tax"
+      ],
+      "findings": [
+        {
+          "id": "github-sso-tax",
+          "kind": "sso-tax",
+          "vendor": "GitHub",
+          "slug": "github",
+          "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+          "detail": "GitHub's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+          "pricingUrl": "https://github.com/pricing",
+          "severity": 105,
+          "receipt": {
+            "slug": "github",
+            "sourceUrl": "https://github.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.377Z",
+            "sha256": "c7751f8b296cfa1b324c0e369e0433a50a37638c2d13f57307bce7be18031517",
+            "byteLength": 886,
+            "relPath": "receipts/github.json"
+          }
+        },
+        {
+          "id": "github-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "GitHub",
+          "slug": "github",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "GitHub gates top-tier pricing behind a sales call rather than listing public rates. Highest public tier shown: $21/mo.",
+          "pricingUrl": "https://github.com/pricing",
+          "severity": 70,
+          "receipt": {
+            "slug": "github",
+            "sourceUrl": "https://github.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.377Z",
+            "sha256": "c7751f8b296cfa1b324c0e369e0433a50a37638c2d13f57307bce7be18031517",
+            "byteLength": 886,
+            "relPath": "receipts/github.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "github",
+        "sourceUrl": "https://github.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.377Z",
+        "sha256": "c7751f8b296cfa1b324c0e369e0433a50a37638c2d13f57307bce7be18031517",
+        "byteLength": 886,
+        "relPath": "receipts/github.json"
+      }
+    },
+    {
+      "name": "ElevenLabs",
+      "slug": "elevenlabs",
+      "category": "AI",
+      "pricingUrl": "https://elevenlabs.io/pricing",
+      "extracted": {
+        "pricesUsd": [
+          5,
+          6,
+          8,
+          18,
+          22,
+          37,
+          82,
+          99,
+          249,
+          299,
+          825,
+          990
+        ],
+        "minPaidUsd": 5,
+        "maxPublicUsd": 990,
+        "hasFreeTier": false,
+        "mentionsSso": true,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": true,
+        "annualSavePct": 55,
+        "mentionsAuditLogs": false,
+        "evidenceSnippets": [
+          "As BAAs for HIPAA customers Custom SSO More seats and voices Elevated concurrency limits Full",
+          "Enterprise Pricing Log in Sign up Contact sales Log in Sign up ElevenLabs Black Friday pricing Up to 5",
+          "udio 10k credits per month Starter Billed yearly, $60 a year regular price $6 , now $5 /mo 2 months fre"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "sso-tax",
+        "annual"
+      ],
+      "findings": [
+        {
+          "id": "elevenlabs-sso-tax",
+          "kind": "sso-tax",
+          "vendor": "ElevenLabs",
+          "slug": "elevenlabs",
+          "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+          "detail": "ElevenLabs's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+          "pricingUrl": "https://elevenlabs.io/pricing",
+          "severity": 90,
+          "receipt": {
+            "slug": "elevenlabs",
+            "sourceUrl": "https://elevenlabs.io/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.387Z",
+            "sha256": "2ab7c47d7e37b42c2a129b536781104978d6ac611c870675ffbe503765592d49",
+            "byteLength": 996,
+            "relPath": "receipts/elevenlabs.json"
+          }
+        },
+        {
+          "id": "elevenlabs-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "ElevenLabs",
+          "slug": "elevenlabs",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "ElevenLabs gates top-tier pricing behind a sales call rather than listing public rates. Highest public tier shown: $990/mo.",
+          "pricingUrl": "https://elevenlabs.io/pricing",
+          "severity": 70,
+          "receipt": {
+            "slug": "elevenlabs",
+            "sourceUrl": "https://elevenlabs.io/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.387Z",
+            "sha256": "2ab7c47d7e37b42c2a129b536781104978d6ac611c870675ffbe503765592d49",
+            "byteLength": 996,
+            "relPath": "receipts/elevenlabs.json"
+          }
+        },
+        {
+          "id": "elevenlabs-annual",
+          "kind": "annual-lockin",
+          "vendor": "ElevenLabs",
+          "slug": "elevenlabs",
+          "headline": "Headline prices assume annual lock-in (55% monthly penalty)",
+          "detail": "ElevenLabs's pricing page highlights annual billing discounts; monthly checkout costs more than the headline $/mo number.",
+          "pricingUrl": "https://elevenlabs.io/pricing",
+          "severity": 100,
+          "receipt": {
+            "slug": "elevenlabs",
+            "sourceUrl": "https://elevenlabs.io/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.387Z",
+            "sha256": "2ab7c47d7e37b42c2a129b536781104978d6ac611c870675ffbe503765592d49",
+            "byteLength": 996,
+            "relPath": "receipts/elevenlabs.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "elevenlabs",
+        "sourceUrl": "https://elevenlabs.io/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.387Z",
+        "sha256": "2ab7c47d7e37b42c2a129b536781104978d6ac611c870675ffbe503765592d49",
+        "byteLength": 996,
+        "relPath": "receipts/elevenlabs.json"
+      }
+    },
+    {
+      "name": "Cursor",
+      "slug": "cursor",
+      "category": "AI",
+      "pricingUrl": "https://cursor.com/pricing",
+      "extracted": {
+        "pricesUsd": [
+          8,
+          30,
+          100,
+          200
+        ],
+        "minPaidUsd": 8,
+        "maxPublicUsd": 200,
+        "hasFreeTier": false,
+        "mentionsSso": true,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": false,
+        "annualSavePct": null,
+        "mentionsAuditLogs": true,
+        "evidenceSnippets": [
+          "Chat data retention — — — — — ✓ ✓ SAML/OIDC SSO — — — — — ✓ ✓ Mix and match seat types — — —",
+          "ricing Resources → Sign in Contact Contact sales Download Pricing Individual Teams Free $0 /month Get s",
+          "✓ Invoice/PO billing — — — — — — ✓ SCIM seat management — — — — — — ✓ Granular spend controls"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "sso-tax"
+      ],
+      "findings": [
+        {
+          "id": "cursor-sso-tax",
+          "kind": "sso-tax",
+          "vendor": "Cursor",
+          "slug": "cursor",
+          "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+          "detail": "Cursor's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+          "pricingUrl": "https://cursor.com/pricing",
+          "severity": 105,
+          "receipt": {
+            "slug": "cursor",
+            "sourceUrl": "https://cursor.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.392Z",
+            "sha256": "897c65776f2bb8fdcca8edaf7c425faa8039168e79f2b8b7dfcf62b64612f537",
+            "byteLength": 963,
+            "relPath": "receipts/cursor.json"
+          }
+        },
+        {
+          "id": "cursor-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "Cursor",
+          "slug": "cursor",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "Cursor gates top-tier pricing behind a sales call rather than listing public rates. Highest public tier shown: $200/mo.",
+          "pricingUrl": "https://cursor.com/pricing",
+          "severity": 70,
+          "receipt": {
+            "slug": "cursor",
+            "sourceUrl": "https://cursor.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.392Z",
+            "sha256": "897c65776f2bb8fdcca8edaf7c425faa8039168e79f2b8b7dfcf62b64612f537",
+            "byteLength": 963,
+            "relPath": "receipts/cursor.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "cursor",
+        "sourceUrl": "https://cursor.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.392Z",
+        "sha256": "897c65776f2bb8fdcca8edaf7c425faa8039168e79f2b8b7dfcf62b64612f537",
+        "byteLength": 963,
+        "relPath": "receipts/cursor.json"
+      }
+    },
+    {
+      "name": "Anthropic",
+      "slug": "anthropic",
+      "category": "AI",
+      "pricingUrl": "https://www.anthropic.com/pricing",
+      "extracted": {
+        "pricesUsd": [
+          17,
+          20,
+          100,
+          200,
+          500
+        ],
+        "minPaidUsd": 17,
+        "maxPublicUsd": 500,
+        "hasFreeTier": true,
+        "mentionsSso": true,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": true,
+        "annualSavePct": 50,
+        "mentionsAuditLogs": true,
+        "evidenceSnippets": [
+          "ration Features Free Pro Max Ultra Single sign-on (SSO) and domain capture More information No No No No",
+          "ofits Browse marketplace Customers Contact sales Resources Insights Resources Articles Webinars Custome",
+          "than Pro* $20 Per seat / month if billed annually. $25 if billed monthly. Premium seat 5x more usage tha",
+          "Cross-domain Identity Management (SCIM) More information No No No No Audit logs More informat"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "sso-tax",
+        "annual",
+        "free-tier"
+      ],
+      "findings": [
+        {
+          "id": "anthropic-sso-tax",
+          "kind": "sso-tax",
+          "vendor": "Anthropic",
+          "slug": "anthropic",
+          "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+          "detail": "Anthropic's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+          "pricingUrl": "https://www.anthropic.com/pricing",
+          "severity": 105,
+          "receipt": {
+            "slug": "anthropic",
+            "sourceUrl": "https://www.anthropic.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.459Z",
+            "sha256": "4b8a30ca6b6956c372dc9fb3ae9595a2034f34ec7878e4e3bdc57845739cd9ad",
+            "byteLength": 1045,
+            "relPath": "receipts/anthropic.json"
+          }
+        },
+        {
+          "id": "anthropic-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "Anthropic",
+          "slug": "anthropic",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "Anthropic gates top-tier pricing behind a sales call rather than listing public rates. Highest public tier shown: $500/mo.",
+          "pricingUrl": "https://www.anthropic.com/pricing",
+          "severity": 70,
+          "receipt": {
+            "slug": "anthropic",
+            "sourceUrl": "https://www.anthropic.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.459Z",
+            "sha256": "4b8a30ca6b6956c372dc9fb3ae9595a2034f34ec7878e4e3bdc57845739cd9ad",
+            "byteLength": 1045,
+            "relPath": "receipts/anthropic.json"
+          }
+        },
+        {
+          "id": "anthropic-annual",
+          "kind": "annual-lockin",
+          "vendor": "Anthropic",
+          "slug": "anthropic",
+          "headline": "Headline prices assume annual lock-in (50% monthly penalty)",
+          "detail": "Anthropic's pricing page highlights annual billing discounts; monthly checkout costs more than the headline $/mo number.",
+          "pricingUrl": "https://www.anthropic.com/pricing",
+          "severity": 95,
+          "receipt": {
+            "slug": "anthropic",
+            "sourceUrl": "https://www.anthropic.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.459Z",
+            "sha256": "4b8a30ca6b6956c372dc9fb3ae9595a2034f34ec7878e4e3bdc57845739cd9ad",
+            "byteLength": 1045,
+            "relPath": "receipts/anthropic.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "anthropic",
+        "sourceUrl": "https://www.anthropic.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.459Z",
+        "sha256": "4b8a30ca6b6956c372dc9fb3ae9595a2034f34ec7878e4e3bdc57845739cd9ad",
+        "byteLength": 1045,
+        "relPath": "receipts/anthropic.json"
+      }
+    },
+    {
+      "name": "Linear",
+      "slug": "linear",
+      "category": "DevTools",
+      "pricingUrl": "https://linear.app/pricing",
+      "extracted": {
+        "pricesUsd": [
+          10,
+          16
+        ],
+        "minPaidUsd": 10,
+        "maxPublicUsd": 16,
+        "hasFreeTier": false,
+        "mentionsSso": true,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": true,
+        "annualSavePct": null,
+        "mentionsAuditLogs": true,
+        "evidenceSnippets": [
+          "ness features + Invoice/PO billing SAML and SCIM Granular admin controls Enterprise-grade secu",
+          "tegrations Get started Get started Contact sales Enterprise Custom Annual billing only All Business fea",
+          "per user/month $10 per user/month Billed yearly All Free features + 5 teams Unlimited issues Unlimited",
+          "ures + Invoice/PO billing SAML and SCIM Granular admin controls Enterprise-grade security Adva"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "sso-tax",
+        "annual"
+      ],
+      "findings": [
+        {
+          "id": "linear-sso-tax",
+          "kind": "sso-tax",
+          "vendor": "Linear",
+          "slug": "linear",
+          "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+          "detail": "Linear's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+          "pricingUrl": "https://linear.app/pricing",
+          "severity": 105,
+          "receipt": {
+            "slug": "linear",
+            "sourceUrl": "https://linear.app/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.501Z",
+            "sha256": "561273a38b5b60e07d29ed971d71c883f90ca13d6ff2c1e7705ab45c70fa3525",
+            "byteLength": 990,
+            "relPath": "receipts/linear.json"
+          }
+        },
+        {
+          "id": "linear-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "Linear",
+          "slug": "linear",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "Linear gates top-tier pricing behind a sales call rather than listing public rates. Highest public tier shown: $16/mo.",
+          "pricingUrl": "https://linear.app/pricing",
+          "severity": 70,
+          "receipt": {
+            "slug": "linear",
+            "sourceUrl": "https://linear.app/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.501Z",
+            "sha256": "561273a38b5b60e07d29ed971d71c883f90ca13d6ff2c1e7705ab45c70fa3525",
+            "byteLength": 990,
+            "relPath": "receipts/linear.json"
+          }
+        },
+        {
+          "id": "linear-annual",
+          "kind": "annual-lockin",
+          "vendor": "Linear",
+          "slug": "linear",
+          "headline": "Headline prices assume annual billing",
+          "detail": "Linear's pricing page highlights annual billing discounts; monthly checkout costs more than the headline $/mo number.",
+          "pricingUrl": "https://linear.app/pricing",
+          "severity": 60,
+          "receipt": {
+            "slug": "linear",
+            "sourceUrl": "https://linear.app/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.501Z",
+            "sha256": "561273a38b5b60e07d29ed971d71c883f90ca13d6ff2c1e7705ab45c70fa3525",
+            "byteLength": 990,
+            "relPath": "receipts/linear.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "linear",
+        "sourceUrl": "https://linear.app/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.501Z",
+        "sha256": "561273a38b5b60e07d29ed971d71c883f90ca13d6ff2c1e7705ab45c70fa3525",
+        "byteLength": 990,
+        "relPath": "receipts/linear.json"
+      }
+    },
+    {
+      "name": "Retool",
+      "slug": "retool",
+      "category": "DevTools",
+      "pricingUrl": "https://retool.com/pricing",
+      "extracted": {
+        "pricesUsd": [
+          4,
+          5,
+          6,
+          8,
+          10,
+          15,
+          50
+        ],
+        "minPaidUsd": 4,
+        "maxPublicUsd": 50,
+        "hasFreeTier": true,
+        "mentionsSso": true,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": true,
+        "annualSavePct": 20,
+        "mentionsAuditLogs": true,
+        "evidenceSnippets": [
+          ": Git source control Not included: SSO, SCIM, 2FA View all Team Billed annually Save 20% with",
+          "latform Enterprise Billed annually Custom pricing that works with your business Get pricing Get pricing",
+          "uded: SSO, SCIM, 2FA View all Team Billed annually Save 20% with annual billing Save 20% with annual bill",
+          "sers + embedded apps Not included: Audit logs Not included: Rich permissions Not included: Bring you"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "sso-tax",
+        "annual",
+        "free-tier"
+      ],
+      "findings": [
+        {
+          "id": "retool-sso-tax",
+          "kind": "sso-tax",
+          "vendor": "Retool",
+          "slug": "retool",
+          "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+          "detail": "Retool's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+          "pricingUrl": "https://retool.com/pricing",
+          "severity": 105,
+          "receipt": {
+            "slug": "retool",
+            "sourceUrl": "https://retool.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.600Z",
+            "sha256": "16a7a6eea1b471fc21a77b05ca9d596fbbf73d33778fd9c85ab364bd78fbd8d0",
+            "byteLength": 1040,
+            "relPath": "receipts/retool.json"
+          }
+        },
+        {
+          "id": "retool-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "Retool",
+          "slug": "retool",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "Retool gates top-tier pricing behind a sales call rather than listing public rates. Highest public tier shown: $50/mo.",
+          "pricingUrl": "https://retool.com/pricing",
+          "severity": 70,
+          "receipt": {
+            "slug": "retool",
+            "sourceUrl": "https://retool.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.600Z",
+            "sha256": "16a7a6eea1b471fc21a77b05ca9d596fbbf73d33778fd9c85ab364bd78fbd8d0",
+            "byteLength": 1040,
+            "relPath": "receipts/retool.json"
+          }
+        },
+        {
+          "id": "retool-annual",
+          "kind": "annual-lockin",
+          "vendor": "Retool",
+          "slug": "retool",
+          "headline": "Headline prices assume annual lock-in (20% monthly penalty)",
+          "detail": "Retool's pricing page highlights annual billing discounts; monthly checkout costs more than the headline $/mo number.",
+          "pricingUrl": "https://retool.com/pricing",
+          "severity": 65,
+          "receipt": {
+            "slug": "retool",
+            "sourceUrl": "https://retool.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.600Z",
+            "sha256": "16a7a6eea1b471fc21a77b05ca9d596fbbf73d33778fd9c85ab364bd78fbd8d0",
+            "byteLength": 1040,
+            "relPath": "receipts/retool.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "retool",
+        "sourceUrl": "https://retool.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.600Z",
+        "sha256": "16a7a6eea1b471fc21a77b05ca9d596fbbf73d33778fd9c85ab364bd78fbd8d0",
+        "byteLength": 1040,
+        "relPath": "receipts/retool.json"
+      }
+    },
+    {
+      "name": "PostHog",
+      "slug": "posthog",
+      "category": "Data & Infra",
+      "pricingUrl": "https://posthog.com/pricing",
+      "extracted": {
+        "pricesUsd": [],
+        "minPaidUsd": null,
+        "maxPublicUsd": null,
+        "hasFreeTier": true,
+        "mentionsSso": true,
+        "hasEnterpriseWall": false,
+        "hasAnnualDiscount": false,
+        "annualSavePct": null,
+        "mentionsAuditLogs": true,
+        "evidenceSnippets": [
+          "onboarding help Platform packages SSO, audit logs, custom roles, and project permissions for",
+          "arding help Platform packages SSO, audit logs, custom roles, and project permissions for teams that"
+        ]
+      },
+      "isTransparent": true,
+      "tags": [
+        "transparent",
+        "free-tier"
+      ],
+      "findings": [],
+      "receipt": {
+        "slug": "posthog",
+        "sourceUrl": "https://posthog.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.614Z",
+        "sha256": "3e7ce25ab624116e622404f1d7ec6256387950778c6f4c7c757c569490dd4bb5",
+        "byteLength": 753,
+        "relPath": "receipts/posthog.json"
+      }
+    },
+    {
+      "name": "Supabase",
+      "slug": "supabase",
+      "category": "Data & Infra",
+      "pricingUrl": "https://supabase.com/pricing",
+      "extracted": {
+        "pricesUsd": [
+          10,
+          25,
+          75,
+          100
+        ],
+        "minPaidUsd": 10,
+        "maxPublicUsd": 100,
+        "hasFreeTier": true,
+        "mentionsSso": true,
+        "hasEnterpriseWall": false,
+        "hasAnnualDiscount": false,
+        "annualSavePct": null,
+        "mentionsAuditLogs": true,
+        "evidenceSnippets": [
+          "project Team Add features such as SSO, control over backups, and industry certifications. Fr",
+          "m emails Not included in free Auth Audit Logs 24 hours Basic Multi-Factor Auth Included in free Adva"
+        ]
+      },
+      "isTransparent": true,
+      "tags": [
+        "transparent",
+        "free-tier"
+      ],
+      "findings": [],
+      "receipt": {
+        "slug": "supabase",
+        "sourceUrl": "https://supabase.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.662Z",
+        "sha256": "20cc24af0e5a4226b9fb9aa395fd27129fcf97bf90452c34cbc184124ce0337c",
+        "byteLength": 798,
+        "relPath": "receipts/supabase.json"
+      }
+    },
+    {
+      "name": "Replit",
+      "slug": "replit",
+      "category": "AI",
+      "pricingUrl": "https://replit.com/pricing",
+      "extracted": {
+        "pricesUsd": [],
+        "minPaidUsd": null,
+        "maxPublicUsd": null,
+        "hasFreeTier": false,
+        "mentionsSso": true,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": true,
+        "annualSavePct": null,
+        "mentionsAuditLogs": true,
+        "evidenceSnippets": [
+          "erprise-grade security and control SSO, SCIM & audit logs Advanced privacy controls Centraliz",
+          "tories Blog Frontier Blog Newsroom Contact sales Log in Sign up Product Agent Databases Security Integr",
+          "p to 10% off Core $20 $18 / month, billed annually For personal projects and simple apps. Up to 30 hours",
+          "se-grade security and control SSO, SCIM & audit logs Advanced privacy controls Centralized sec"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "sso-tax",
+        "annual"
+      ],
+      "findings": [
+        {
+          "id": "replit-sso-tax",
+          "kind": "sso-tax",
+          "vendor": "Replit",
+          "slug": "replit",
+          "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+          "detail": "Replit's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+          "pricingUrl": "https://replit.com/pricing",
+          "severity": 105,
+          "receipt": {
+            "slug": "replit",
+            "sourceUrl": "https://replit.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.680Z",
+            "sha256": "799b31f6ad5e4212fd925a93fd7b67f18d5bd4425c2c3c2aa8da939c5c475d5c",
+            "byteLength": 971,
+            "relPath": "receipts/replit.json"
+          }
+        },
+        {
+          "id": "replit-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "Replit",
+          "slug": "replit",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "Replit gates top-tier pricing behind a sales call rather than listing public rates.",
+          "pricingUrl": "https://replit.com/pricing",
+          "severity": 100,
+          "receipt": {
+            "slug": "replit",
+            "sourceUrl": "https://replit.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.680Z",
+            "sha256": "799b31f6ad5e4212fd925a93fd7b67f18d5bd4425c2c3c2aa8da939c5c475d5c",
+            "byteLength": 971,
+            "relPath": "receipts/replit.json"
+          }
+        },
+        {
+          "id": "replit-annual",
+          "kind": "annual-lockin",
+          "vendor": "Replit",
+          "slug": "replit",
+          "headline": "Headline prices assume annual billing",
+          "detail": "Replit's pricing page highlights annual billing discounts; monthly checkout costs more than the headline $/mo number.",
+          "pricingUrl": "https://replit.com/pricing",
+          "severity": 60,
+          "receipt": {
+            "slug": "replit",
+            "sourceUrl": "https://replit.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.680Z",
+            "sha256": "799b31f6ad5e4212fd925a93fd7b67f18d5bd4425c2c3c2aa8da939c5c475d5c",
+            "byteLength": 971,
+            "relPath": "receipts/replit.json"
+          }
+        },
+        {
+          "id": "replit-no-prices",
+          "kind": "no-public-prices",
+          "vendor": "Replit",
+          "slug": "replit",
+          "headline": "No standard $/mo tiers in SSR pricing HTML",
+          "detail": "Public pricing page HTML exposes no standard $/mo seat tiers without JS interaction or contacting sales.",
+          "pricingUrl": "https://replit.com/pricing",
+          "severity": 85,
+          "receipt": {
+            "slug": "replit",
+            "sourceUrl": "https://replit.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.680Z",
+            "sha256": "799b31f6ad5e4212fd925a93fd7b67f18d5bd4425c2c3c2aa8da939c5c475d5c",
+            "byteLength": 971,
+            "relPath": "receipts/replit.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "replit",
+        "sourceUrl": "https://replit.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.680Z",
+        "sha256": "799b31f6ad5e4212fd925a93fd7b67f18d5bd4425c2c3c2aa8da939c5c475d5c",
+        "byteLength": 971,
+        "relPath": "receipts/replit.json"
+      }
+    },
+    {
+      "name": "Railway",
+      "slug": "railway",
+      "category": "Data & Infra",
+      "pricingUrl": "https://railway.com/pricing",
+      "extracted": {
+        "pricesUsd": [
+          300
+        ],
+        "minPaidUsd": 300,
+        "maxPublicUsd": 300,
+        "hasFreeTier": true,
+        "mentionsSso": true,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": false,
+        "annualSavePct": null,
+        "mentionsAuditLogs": true,
+        "evidenceSnippets": [
+          "d support needs 90-Day Log History Single Sign-On SCIM Directory Provisioning 18-Month Audit Log Retenti",
+          "at 48 vCPU / 48 GB RAM per service Contact Sales Memory $ 0.00000386 per GB / sec CPU $ 0.00000772 per",
+          "90-Day Log History Single Sign-On SCIM Directory Provisioning 18-Month Audit Log Retention Ro"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "sso-tax",
+        "free-tier"
+      ],
+      "findings": [
+        {
+          "id": "railway-sso-tax",
+          "kind": "sso-tax",
+          "vendor": "Railway",
+          "slug": "railway",
+          "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+          "detail": "Railway's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+          "pricingUrl": "https://railway.com/pricing",
+          "severity": 105,
+          "receipt": {
+            "slug": "railway",
+            "sourceUrl": "https://railway.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.804Z",
+            "sha256": "da9370f2f29b42d6c05292bd81ab2d40c022268a7d9724415467fa099fb70720",
+            "byteLength": 882,
+            "relPath": "receipts/railway.json"
+          }
+        },
+        {
+          "id": "railway-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "Railway",
+          "slug": "railway",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "Railway gates top-tier pricing behind a sales call rather than listing public rates. Highest public tier shown: $300/mo.",
+          "pricingUrl": "https://railway.com/pricing",
+          "severity": 70,
+          "receipt": {
+            "slug": "railway",
+            "sourceUrl": "https://railway.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.804Z",
+            "sha256": "da9370f2f29b42d6c05292bd81ab2d40c022268a7d9724415467fa099fb70720",
+            "byteLength": 882,
+            "relPath": "receipts/railway.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "railway",
+        "sourceUrl": "https://railway.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.804Z",
+        "sha256": "da9370f2f29b42d6c05292bd81ab2d40c022268a7d9724415467fa099fb70720",
+        "byteLength": 882,
+        "relPath": "receipts/railway.json"
+      }
+    },
+    {
+      "name": "Datadog",
+      "slug": "datadog",
+      "category": "Data & Infra",
+      "pricingUrl": "https://www.datadoghq.com/pricing/",
+      "extracted": {
+        "pricesUsd": [
+          16,
+          20,
+          25,
+          30,
+          40,
+          55,
+          160,
+          200,
+          240
+        ],
+        "minPaidUsd": 16,
+        "maxPublicUsd": 240,
+        "hasFreeTier": true,
+        "mentionsSso": true,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": true,
+        "annualSavePct": null,
+        "mentionsAuditLogs": true,
+        "evidenceSnippets": [
+          "st allotted 1000 per host allotted Single Sign-On with SAML ' width=\"25px\" height=\"25px\" viewBox=\"0 0 48",
+          "ost, per month Per host, per month Contact sales for pricing Essential coverage for noncritical workloa",
+          "workflows with Bits Agent Builder *Billed annually or $ 1.30 per credit on-demand. Start Free Trial Featu",
+          ". Advanced Administrative Features SCIM ' width=\"25px\" height=\"25px\" viewBox=\"0 0 48 48\" versi"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "sso-tax",
+        "annual",
+        "free-tier"
+      ],
+      "findings": [
+        {
+          "id": "datadog-sso-tax",
+          "kind": "sso-tax",
+          "vendor": "Datadog",
+          "slug": "datadog",
+          "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+          "detail": "Datadog's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+          "pricingUrl": "https://www.datadoghq.com/pricing/",
+          "severity": 105,
+          "receipt": {
+            "slug": "datadog",
+            "sourceUrl": "https://www.datadoghq.com/pricing/",
+            "fetchedAt": "2026-11-27T15:49:43.818Z",
+            "sha256": "7f993604a34f8a0010c59ce7a38a0cef9c9456f3e5f14b7e98b6c2100c537a6a",
+            "byteLength": 1098,
+            "relPath": "receipts/datadog.json"
+          }
+        },
+        {
+          "id": "datadog-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "Datadog",
+          "slug": "datadog",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "Datadog gates top-tier pricing behind a sales call rather than listing public rates. Highest public tier shown: $240/mo.",
+          "pricingUrl": "https://www.datadoghq.com/pricing/",
+          "severity": 70,
+          "receipt": {
+            "slug": "datadog",
+            "sourceUrl": "https://www.datadoghq.com/pricing/",
+            "fetchedAt": "2026-11-27T15:49:43.818Z",
+            "sha256": "7f993604a34f8a0010c59ce7a38a0cef9c9456f3e5f14b7e98b6c2100c537a6a",
+            "byteLength": 1098,
+            "relPath": "receipts/datadog.json"
+          }
+        },
+        {
+          "id": "datadog-annual",
+          "kind": "annual-lockin",
+          "vendor": "Datadog",
+          "slug": "datadog",
+          "headline": "Headline prices assume annual billing",
+          "detail": "Datadog's pricing page highlights annual billing discounts; monthly checkout costs more than the headline $/mo number.",
+          "pricingUrl": "https://www.datadoghq.com/pricing/",
+          "severity": 60,
+          "receipt": {
+            "slug": "datadog",
+            "sourceUrl": "https://www.datadoghq.com/pricing/",
+            "fetchedAt": "2026-11-27T15:49:43.818Z",
+            "sha256": "7f993604a34f8a0010c59ce7a38a0cef9c9456f3e5f14b7e98b6c2100c537a6a",
+            "byteLength": 1098,
+            "relPath": "receipts/datadog.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "datadog",
+        "sourceUrl": "https://www.datadoghq.com/pricing/",
+        "fetchedAt": "2026-11-27T15:49:43.818Z",
+        "sha256": "7f993604a34f8a0010c59ce7a38a0cef9c9456f3e5f14b7e98b6c2100c537a6a",
+        "byteLength": 1098,
+        "relPath": "receipts/datadog.json"
+      }
+    },
+    {
+      "name": "Fly.io",
+      "slug": "flyio",
+      "category": "Data & Infra",
+      "pricingUrl": "https://fly.io/docs/about/pricing/",
+      "extracted": {
+        "pricesUsd": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          13,
+          20,
+          29,
+          33,
+          50,
+          66,
+          199,
+          200,
+          500
+        ],
+        "minPaidUsd": 1,
+        "maxPublicUsd": 500,
+        "hasFreeTier": true,
+        "mentionsSso": true,
+        "hasEnterpriseWall": false,
+        "hasAnnualDiscount": false,
+        "annualSavePct": null,
+        "mentionsAuditLogs": false,
+        "evidenceSnippets": [
+          "/org-roles-permissions\"},{\"title\":\"Single sign-on for organizations\",\"href\":\"/security/sso\"},{\"title\":\"R"
+        ]
+      },
+      "isTransparent": true,
+      "tags": [
+        "transparent",
+        "free-tier"
+      ],
+      "findings": [],
+      "receipt": {
+        "slug": "flyio",
+        "sourceUrl": "https://fly.io/docs/about/pricing/",
+        "fetchedAt": "2026-11-27T15:49:43.850Z",
+        "sha256": "55c7b83f48c22e91b0e93f3f614c2be4e490f7c454617ef9deafbbb65afd5c07",
+        "byteLength": 819,
+        "relPath": "receipts/flyio.json"
+      }
+    },
+    {
+      "name": "Neon",
+      "slug": "neon",
+      "category": "Data & Infra",
+      "pricingUrl": "https://neon.tech/pricing",
+      "extracted": {
+        "pricesUsd": [
+          15,
+          701
+        ],
+        "minPaidUsd": 15,
+        "maxPublicUsd": 701,
+        "hasFreeTier": true,
+        "mentionsSso": false,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": false,
+        "annualSavePct": null,
+        "mentionsAuditLogs": false,
+        "evidenceSnippets": [
+          "the mission Careers Join the team Contact sales Contact sales team Security Compliance & privacy Statu"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "free-tier"
+      ],
+      "findings": [
+        {
+          "id": "neon-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "Neon",
+          "slug": "neon",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "Neon gates top-tier pricing behind a sales call rather than listing public rates. Highest public tier shown: $701/mo.",
+          "pricingUrl": "https://neon.tech/pricing",
+          "severity": 70,
+          "receipt": {
+            "slug": "neon",
+            "sourceUrl": "https://neon.tech/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.918Z",
+            "sha256": "9b78ea21e4719e104c7c34fbe004d94975659b14e7b29ecf75ad02369603ef6f",
+            "byteLength": 668,
+            "relPath": "receipts/neon.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "neon",
+        "sourceUrl": "https://neon.tech/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.918Z",
+        "sha256": "9b78ea21e4719e104c7c34fbe004d94975659b14e7b29ecf75ad02369603ef6f",
+        "byteLength": 668,
+        "relPath": "receipts/neon.json"
+      }
+    },
+    {
+      "name": "Cloudflare",
+      "slug": "cloudflare",
+      "category": "Data & Infra",
+      "pricingUrl": "https://www.cloudflare.com/plans/",
+      "extracted": {
+        "pricesUsd": [
+          5,
+          7,
+          10,
+          20,
+          25,
+          200,
+          250
+        ],
+        "minPaidUsd": 5,
+        "maxPublicUsd": 250,
+        "hasFreeTier": true,
+        "mentionsSso": true,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": true,
+        "annualSavePct": null,
+        "mentionsAuditLogs": false,
+        "evidenceSnippets": [
+          "rd); 25x (Premium) Single-Sign-On (SSO) Support Single-Sign-On (SSO) Support Free Pro Busines",
+          "Resources Pricing Login Dashboard Contact sales Start building Dashboard Login Scale predictably Pay o",
+          "&#x27;t business-critical. $20 /mo billed annually, or $25/mo billed monthly Get started Business For sma"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "sso-tax",
+        "annual",
+        "free-tier"
+      ],
+      "findings": [
+        {
+          "id": "cloudflare-sso-tax",
+          "kind": "sso-tax",
+          "vendor": "Cloudflare",
+          "slug": "cloudflare",
+          "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+          "detail": "Cloudflare's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+          "pricingUrl": "https://www.cloudflare.com/plans/",
+          "severity": 90,
+          "receipt": {
+            "slug": "cloudflare",
+            "sourceUrl": "https://www.cloudflare.com/plans/",
+            "fetchedAt": "2026-11-27T15:49:43.926Z",
+            "sha256": "6de82771fd1abcb15626a4b44565188cad7f3775235d58b825dc57782dfcb8f4",
+            "byteLength": 952,
+            "relPath": "receipts/cloudflare.json"
+          }
+        },
+        {
+          "id": "cloudflare-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "Cloudflare",
+          "slug": "cloudflare",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "Cloudflare gates top-tier pricing behind a sales call rather than listing public rates. Highest public tier shown: $250/mo.",
+          "pricingUrl": "https://www.cloudflare.com/plans/",
+          "severity": 70,
+          "receipt": {
+            "slug": "cloudflare",
+            "sourceUrl": "https://www.cloudflare.com/plans/",
+            "fetchedAt": "2026-11-27T15:49:43.926Z",
+            "sha256": "6de82771fd1abcb15626a4b44565188cad7f3775235d58b825dc57782dfcb8f4",
+            "byteLength": 952,
+            "relPath": "receipts/cloudflare.json"
+          }
+        },
+        {
+          "id": "cloudflare-annual",
+          "kind": "annual-lockin",
+          "vendor": "Cloudflare",
+          "slug": "cloudflare",
+          "headline": "Headline prices assume annual billing",
+          "detail": "Cloudflare's pricing page highlights annual billing discounts; monthly checkout costs more than the headline $/mo number.",
+          "pricingUrl": "https://www.cloudflare.com/plans/",
+          "severity": 60,
+          "receipt": {
+            "slug": "cloudflare",
+            "sourceUrl": "https://www.cloudflare.com/plans/",
+            "fetchedAt": "2026-11-27T15:49:43.926Z",
+            "sha256": "6de82771fd1abcb15626a4b44565188cad7f3775235d58b825dc57782dfcb8f4",
+            "byteLength": 952,
+            "relPath": "receipts/cloudflare.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "cloudflare",
+        "sourceUrl": "https://www.cloudflare.com/plans/",
+        "fetchedAt": "2026-11-27T15:49:43.926Z",
+        "sha256": "6de82771fd1abcb15626a4b44565188cad7f3775235d58b825dc57782dfcb8f4",
+        "byteLength": 952,
+        "relPath": "receipts/cloudflare.json"
+      }
+    },
+    {
+      "name": "Resend",
+      "slug": "resend",
+      "category": "DevTools",
+      "pricingUrl": "https://resend.com/pricing",
+      "extracted": {
+        "pricesUsd": [
+          1
+        ],
+        "minPaidUsd": 1,
+        "maxPublicUsd": 1,
+        "hasFreeTier": true,
+        "mentionsSso": true,
+        "hasEnterpriseWall": false,
+        "hasAnnualDiscount": false,
+        "annualSavePct": null,
+        "mentionsAuditLogs": false,
+        "evidenceSnippets": [
+          "ing, sending. Request dedicated IP Single Sign-On - $150 / mo Let your team sign in to Resend with your"
+        ]
+      },
+      "isTransparent": true,
+      "tags": [
+        "transparent",
+        "free-tier"
+      ],
+      "findings": [],
+      "receipt": {
+        "slug": "resend",
+        "sourceUrl": "https://resend.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.987Z",
+        "sha256": "c2f27052cbff1a7c9dbe0cfca3c41876a8d25b39627edd452eccb1d15c839d04",
+        "byteLength": 659,
+        "relPath": "receipts/resend.json"
+      }
+    },
+    {
+      "name": "Notion",
+      "slug": "notion",
+      "category": "Productivity",
+      "pricingUrl": "https://www.notion.com/pricing",
+      "extracted": {
+        "pricesUsd": [
+          8,
+          10,
+          20
+        ],
+        "minPaidUsd": 8,
+        "maxPublicUsd": 20,
+        "hasFreeTier": true,
+        "mentionsSso": true,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": true,
+        "annualSavePct": 20,
+        "mentionsAuditLogs": true,
+        "evidenceSnippets": [
+          "ployee access at scale with secure single sign-on. SAML SSO Collaborate in Notion databases without givi",
+          "teamwork. Get started Enterprise* Custom pricing For organizations to operate with scalability, control",
+          "r within 30 days of signing up for annual billing. If you have accidentally added members to your worksp",
+          "th LLM providers Access the Notion SCIM API to provision and manage users and groups. User pro"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "sso-tax",
+        "annual",
+        "free-tier"
+      ],
+      "findings": [
+        {
+          "id": "notion-sso-tax",
+          "kind": "sso-tax",
+          "vendor": "Notion",
+          "slug": "notion",
+          "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+          "detail": "Notion's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+          "pricingUrl": "https://www.notion.com/pricing",
+          "severity": 105,
+          "receipt": {
+            "slug": "notion",
+            "sourceUrl": "https://www.notion.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.994Z",
+            "sha256": "636be781765105788a175943a870201dfdc7f819a6d5f2fe73af5298f8c0dc97",
+            "byteLength": 1011,
+            "relPath": "receipts/notion.json"
+          }
+        },
+        {
+          "id": "notion-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "Notion",
+          "slug": "notion",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "Notion gates top-tier pricing behind a sales call rather than listing public rates. Highest public tier shown: $20/mo.",
+          "pricingUrl": "https://www.notion.com/pricing",
+          "severity": 70,
+          "receipt": {
+            "slug": "notion",
+            "sourceUrl": "https://www.notion.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.994Z",
+            "sha256": "636be781765105788a175943a870201dfdc7f819a6d5f2fe73af5298f8c0dc97",
+            "byteLength": 1011,
+            "relPath": "receipts/notion.json"
+          }
+        },
+        {
+          "id": "notion-annual",
+          "kind": "annual-lockin",
+          "vendor": "Notion",
+          "slug": "notion",
+          "headline": "Headline prices assume annual lock-in (20% monthly penalty)",
+          "detail": "Notion's pricing page highlights annual billing discounts; monthly checkout costs more than the headline $/mo number.",
+          "pricingUrl": "https://www.notion.com/pricing",
+          "severity": 65,
+          "receipt": {
+            "slug": "notion",
+            "sourceUrl": "https://www.notion.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:43.994Z",
+            "sha256": "636be781765105788a175943a870201dfdc7f819a6d5f2fe73af5298f8c0dc97",
+            "byteLength": 1011,
+            "relPath": "receipts/notion.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "notion",
+        "sourceUrl": "https://www.notion.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.994Z",
+        "sha256": "636be781765105788a175943a870201dfdc7f819a6d5f2fe73af5298f8c0dc97",
+        "byteLength": 1011,
+        "relPath": "receipts/notion.json"
+      }
+    },
+    {
+      "name": "Sentry",
+      "slug": "sentry",
+      "category": "DevTools",
+      "pricingUrl": "https://sentry.io/pricing/",
+      "extracted": {
+        "pricesUsd": [
+          26,
+          80
+        ],
+        "minPaidUsd": 26,
+        "maxPublicUsd": 80,
+        "hasFreeTier": false,
+        "mentionsSso": true,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": true,
+        "annualSavePct": null,
+        "mentionsAuditLogs": true,
+        "evidenceSnippets": [
+          "shboards Advanced quota management SAML + SCIM support ( See pricing ) start trial enterprise",
+          "manager Dedicated customer support contact sales Get Started 5,000 Session Replays on us New users only",
+          "on as it scales $26/mo $26/mo When billed annually with default pre-paid data Developer features + Unlimi",
+          "s Advanced quota management SAML + SCIM support ( See pricing ) start trial enterprise For org"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "sso-tax",
+        "annual"
+      ],
+      "findings": [
+        {
+          "id": "sentry-sso-tax",
+          "kind": "sso-tax",
+          "vendor": "Sentry",
+          "slug": "sentry",
+          "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+          "detail": "Sentry's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+          "pricingUrl": "https://sentry.io/pricing/",
+          "severity": 105,
+          "receipt": {
+            "slug": "sentry",
+            "sourceUrl": "https://sentry.io/pricing/",
+            "fetchedAt": "2026-11-27T15:49:44.181Z",
+            "sha256": "266a32e0d4acf34f542facca670a380dd116193f8e99f057570776d11444a7fd",
+            "byteLength": 993,
+            "relPath": "receipts/sentry.json"
+          }
+        },
+        {
+          "id": "sentry-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "Sentry",
+          "slug": "sentry",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "Sentry gates top-tier pricing behind a sales call rather than listing public rates. Highest public tier shown: $80/mo.",
+          "pricingUrl": "https://sentry.io/pricing/",
+          "severity": 70,
+          "receipt": {
+            "slug": "sentry",
+            "sourceUrl": "https://sentry.io/pricing/",
+            "fetchedAt": "2026-11-27T15:49:44.181Z",
+            "sha256": "266a32e0d4acf34f542facca670a380dd116193f8e99f057570776d11444a7fd",
+            "byteLength": 993,
+            "relPath": "receipts/sentry.json"
+          }
+        },
+        {
+          "id": "sentry-annual",
+          "kind": "annual-lockin",
+          "vendor": "Sentry",
+          "slug": "sentry",
+          "headline": "Headline prices assume annual billing",
+          "detail": "Sentry's pricing page highlights annual billing discounts; monthly checkout costs more than the headline $/mo number.",
+          "pricingUrl": "https://sentry.io/pricing/",
+          "severity": 60,
+          "receipt": {
+            "slug": "sentry",
+            "sourceUrl": "https://sentry.io/pricing/",
+            "fetchedAt": "2026-11-27T15:49:44.181Z",
+            "sha256": "266a32e0d4acf34f542facca670a380dd116193f8e99f057570776d11444a7fd",
+            "byteLength": 993,
+            "relPath": "receipts/sentry.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "sentry",
+        "sourceUrl": "https://sentry.io/pricing/",
+        "fetchedAt": "2026-11-27T15:49:44.181Z",
+        "sha256": "266a32e0d4acf34f542facca670a380dd116193f8e99f057570776d11444a7fd",
+        "byteLength": 993,
+        "relPath": "receipts/sentry.json"
+      }
+    },
+    {
+      "name": "Zapier",
+      "slug": "zapier",
+      "category": "Productivity",
+      "pricingUrl": "https://zapier.com/pricing",
+      "extracted": {
+        "pricesUsd": [
+          13,
+          19,
+          33,
+          66,
+          69
+        ],
+        "minPaidUsd": 13,
+        "maxPublicUsd": 69,
+        "hasFreeTier": false,
+        "mentionsSso": true,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": true,
+        "annualSavePct": 33,
+        "mentionsAuditLogs": true,
+        "evidenceSnippets": [
+          "and folders Shared app connections SAML SSO Priority support Enterprise Contact for pricing For or",
+          "rprise Pricing GitHub Explore apps Contact sales Products Most Popular Zap workflows Zapier MCP Zapier",
+          "e Chrome Extension Agents Pro $400 billed annually $33.33 /month Run automated behaviors up to 1,500 time",
+          "ion Pay-per-task billing Static IP Audit log Owner access SAML single sign-on (SSO) User provisioni"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "sso-tax",
+        "annual"
+      ],
+      "findings": [
+        {
+          "id": "zapier-sso-tax",
+          "kind": "sso-tax",
+          "vendor": "Zapier",
+          "slug": "zapier",
+          "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+          "detail": "Zapier's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+          "pricingUrl": "https://zapier.com/pricing",
+          "severity": 105,
+          "receipt": {
+            "slug": "zapier",
+            "sourceUrl": "https://zapier.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:44.277Z",
+            "sha256": "a4b29b75dbd35847b0011953aa65b9cb34bc5e42464bfbce2f9900d3eaf6b0a1",
+            "byteLength": 1030,
+            "relPath": "receipts/zapier.json"
+          }
+        },
+        {
+          "id": "zapier-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "Zapier",
+          "slug": "zapier",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "Zapier gates top-tier pricing behind a sales call rather than listing public rates. Highest public tier shown: $69/mo.",
+          "pricingUrl": "https://zapier.com/pricing",
+          "severity": 70,
+          "receipt": {
+            "slug": "zapier",
+            "sourceUrl": "https://zapier.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:44.277Z",
+            "sha256": "a4b29b75dbd35847b0011953aa65b9cb34bc5e42464bfbce2f9900d3eaf6b0a1",
+            "byteLength": 1030,
+            "relPath": "receipts/zapier.json"
+          }
+        },
+        {
+          "id": "zapier-annual",
+          "kind": "annual-lockin",
+          "vendor": "Zapier",
+          "slug": "zapier",
+          "headline": "Headline prices assume annual lock-in (33% monthly penalty)",
+          "detail": "Zapier's pricing page highlights annual billing discounts; monthly checkout costs more than the headline $/mo number.",
+          "pricingUrl": "https://zapier.com/pricing",
+          "severity": 78,
+          "receipt": {
+            "slug": "zapier",
+            "sourceUrl": "https://zapier.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:44.277Z",
+            "sha256": "a4b29b75dbd35847b0011953aa65b9cb34bc5e42464bfbce2f9900d3eaf6b0a1",
+            "byteLength": 1030,
+            "relPath": "receipts/zapier.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "zapier",
+        "sourceUrl": "https://zapier.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:44.277Z",
+        "sha256": "a4b29b75dbd35847b0011953aa65b9cb34bc5e42464bfbce2f9900d3eaf6b0a1",
+        "byteLength": 1030,
+        "relPath": "receipts/zapier.json"
+      }
+    },
+    {
+      "name": "Slack",
+      "slug": "slack",
+      "category": "Productivity",
+      "pricingUrl": "https://slack.com/pricing",
+      "extracted": {
+        "pricesUsd": [],
+        "minPaidUsd": null,
+        "maxPublicUsd": null,
+        "hasFreeTier": true,
+        "mentionsSso": true,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": false,
+        "annualSavePct": null,
+        "mentionsAuditLogs": true,
+        "evidenceSnippets": [
+          "summaries Frontline teams (add-on) SAML-based single sign-on SCIM user management EMM integrat",
+          "nload Slack Pricing Search Sign in Talk to sales Get started Get started Back Product COLLABORATE Chann",
+          "(add-on) SAML-based single sign-on SCIM user management EMM integration support Native data lo"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "sso-tax",
+        "free-tier"
+      ],
+      "findings": [
+        {
+          "id": "slack-sso-tax",
+          "kind": "sso-tax",
+          "vendor": "Slack",
+          "slug": "slack",
+          "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+          "detail": "Slack's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+          "pricingUrl": "https://slack.com/pricing",
+          "severity": 105,
+          "receipt": {
+            "slug": "slack",
+            "sourceUrl": "https://slack.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:44.291Z",
+            "sha256": "eb19d3883feff8327e161e51eaafae230812954c83b713aba0ed20bf7f47659b",
+            "byteLength": 855,
+            "relPath": "receipts/slack.json"
+          }
+        },
+        {
+          "id": "slack-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "Slack",
+          "slug": "slack",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "Slack gates top-tier pricing behind a sales call rather than listing public rates.",
+          "pricingUrl": "https://slack.com/pricing",
+          "severity": 100,
+          "receipt": {
+            "slug": "slack",
+            "sourceUrl": "https://slack.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:44.291Z",
+            "sha256": "eb19d3883feff8327e161e51eaafae230812954c83b713aba0ed20bf7f47659b",
+            "byteLength": 855,
+            "relPath": "receipts/slack.json"
+          }
+        },
+        {
+          "id": "slack-no-prices",
+          "kind": "no-public-prices",
+          "vendor": "Slack",
+          "slug": "slack",
+          "headline": "No standard $/mo tiers in SSR pricing HTML",
+          "detail": "Public pricing page HTML exposes no standard $/mo seat tiers without JS interaction or contacting sales.",
+          "pricingUrl": "https://slack.com/pricing",
+          "severity": 85,
+          "receipt": {
+            "slug": "slack",
+            "sourceUrl": "https://slack.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:44.291Z",
+            "sha256": "eb19d3883feff8327e161e51eaafae230812954c83b713aba0ed20bf7f47659b",
+            "byteLength": 855,
+            "relPath": "receipts/slack.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "slack",
+        "sourceUrl": "https://slack.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:44.291Z",
+        "sha256": "eb19d3883feff8327e161e51eaafae230812954c83b713aba0ed20bf7f47659b",
+        "byteLength": 855,
+        "relPath": "receipts/slack.json"
+      }
+    },
+    {
+      "name": "Figma",
+      "slug": "figma",
+      "category": "Productivity",
+      "pricingUrl": "https://www.figma.com/pricing/",
+      "extracted": {
+        "pricesUsd": [
+          3,
+          5,
+          12,
+          16,
+          25,
+          35,
+          55,
+          90
+        ],
+        "minPaidUsd": 3,
+        "maxPublicUsd": 90,
+        "hasFreeTier": false,
+        "mentionsSso": true,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": true,
+        "annualSavePct": null,
+        "mentionsAuditLogs": true,
+        "evidenceSnippets": [
+          "e work publicly with more control. Single sign-on (SSO) Setup SAML single sign-on with your existing ide",
+          "enter Figma Support Pricing Log in Contact sales Get started Get started for free Log in Contact sales",
+          "ection and MCP Server Organization Billed annually Full seat $55 /mo + 3,500 AI credits/mo Dev seat $25 /",
+          "ces Design system theming and APIs SCIM seat management If you&#x27;re on a paid plan, you can"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "sso-tax",
+        "annual"
+      ],
+      "findings": [
+        {
+          "id": "figma-sso-tax",
+          "kind": "sso-tax",
+          "vendor": "Figma",
+          "slug": "figma",
+          "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+          "detail": "Figma's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+          "pricingUrl": "https://www.figma.com/pricing/",
+          "severity": 105,
+          "receipt": {
+            "slug": "figma",
+            "sourceUrl": "https://www.figma.com/pricing/",
+            "fetchedAt": "2026-11-27T15:49:44.301Z",
+            "sha256": "957c1bab27ba3d270409027449893b21031de5010e3633c1bba63816d8ba2c7e",
+            "byteLength": 1062,
+            "relPath": "receipts/figma.json"
+          }
+        },
+        {
+          "id": "figma-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "Figma",
+          "slug": "figma",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "Figma gates top-tier pricing behind a sales call rather than listing public rates. Highest public tier shown: $90/mo.",
+          "pricingUrl": "https://www.figma.com/pricing/",
+          "severity": 70,
+          "receipt": {
+            "slug": "figma",
+            "sourceUrl": "https://www.figma.com/pricing/",
+            "fetchedAt": "2026-11-27T15:49:44.301Z",
+            "sha256": "957c1bab27ba3d270409027449893b21031de5010e3633c1bba63816d8ba2c7e",
+            "byteLength": 1062,
+            "relPath": "receipts/figma.json"
+          }
+        },
+        {
+          "id": "figma-annual",
+          "kind": "annual-lockin",
+          "vendor": "Figma",
+          "slug": "figma",
+          "headline": "Headline prices assume annual billing",
+          "detail": "Figma's pricing page highlights annual billing discounts; monthly checkout costs more than the headline $/mo number.",
+          "pricingUrl": "https://www.figma.com/pricing/",
+          "severity": 60,
+          "receipt": {
+            "slug": "figma",
+            "sourceUrl": "https://www.figma.com/pricing/",
+            "fetchedAt": "2026-11-27T15:49:44.301Z",
+            "sha256": "957c1bab27ba3d270409027449893b21031de5010e3633c1bba63816d8ba2c7e",
+            "byteLength": 1062,
+            "relPath": "receipts/figma.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "figma",
+        "sourceUrl": "https://www.figma.com/pricing/",
+        "fetchedAt": "2026-11-27T15:49:44.301Z",
+        "sha256": "957c1bab27ba3d270409027449893b21031de5010e3633c1bba63816d8ba2c7e",
+        "byteLength": 1062,
+        "relPath": "receipts/figma.json"
+      }
+    },
+    {
+      "name": "Loom",
+      "slug": "loom",
+      "category": "Productivity",
+      "pricingUrl": "https://www.loom.com/pricing",
+      "extracted": {
+        "pricesUsd": [
+          18,
+          24
+        ],
+        "minPaidUsd": 18,
+        "maxPublicUsd": 24,
+        "hasFreeTier": false,
+        "mentionsSso": true,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": true,
+        "annualSavePct": 17,
+        "mentionsAuditLogs": true,
+        "evidenceSnippets": [
+          "iness + AI, and Advanced security (SSO, SCIM) Salesforce integration 99.95% uptime SLA EBA Co",
+          "the entire organization Let’s Talk Contact Sales Everything in Business + AI, and Advanced security (SS",
+          "number of paid users on your plan, billed annually. Atlassian.com annual subscriptions are based on disti",
+          "+ AI, and Advanced security (SSO, SCIM) Salesforce integration 99.95% uptime SLA EBA Complian"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "sso-tax",
+        "annual"
+      ],
+      "findings": [
+        {
+          "id": "loom-sso-tax",
+          "kind": "sso-tax",
+          "vendor": "Loom",
+          "slug": "loom",
+          "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+          "detail": "Loom's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+          "pricingUrl": "https://www.loom.com/pricing",
+          "severity": 105,
+          "receipt": {
+            "slug": "loom",
+            "sourceUrl": "https://www.loom.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:44.312Z",
+            "sha256": "49aa0e10ee96cbf2633ca95be5e588c9de151a603d76a0b1bee292cfcabd916d",
+            "byteLength": 989,
+            "relPath": "receipts/loom.json"
+          }
+        },
+        {
+          "id": "loom-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "Loom",
+          "slug": "loom",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "Loom gates top-tier pricing behind a sales call rather than listing public rates. Highest public tier shown: $24/mo.",
+          "pricingUrl": "https://www.loom.com/pricing",
+          "severity": 70,
+          "receipt": {
+            "slug": "loom",
+            "sourceUrl": "https://www.loom.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:44.312Z",
+            "sha256": "49aa0e10ee96cbf2633ca95be5e588c9de151a603d76a0b1bee292cfcabd916d",
+            "byteLength": 989,
+            "relPath": "receipts/loom.json"
+          }
+        },
+        {
+          "id": "loom-annual",
+          "kind": "annual-lockin",
+          "vendor": "Loom",
+          "slug": "loom",
+          "headline": "Headline prices assume annual lock-in (17% monthly penalty)",
+          "detail": "Loom's pricing page highlights annual billing discounts; monthly checkout costs more than the headline $/mo number.",
+          "pricingUrl": "https://www.loom.com/pricing",
+          "severity": 62,
+          "receipt": {
+            "slug": "loom",
+            "sourceUrl": "https://www.loom.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:44.312Z",
+            "sha256": "49aa0e10ee96cbf2633ca95be5e588c9de151a603d76a0b1bee292cfcabd916d",
+            "byteLength": 989,
+            "relPath": "receipts/loom.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "loom",
+        "sourceUrl": "https://www.loom.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:44.312Z",
+        "sha256": "49aa0e10ee96cbf2633ca95be5e588c9de151a603d76a0b1bee292cfcabd916d",
+        "byteLength": 989,
+        "relPath": "receipts/loom.json"
+      }
+    },
+    {
+      "name": "Airtable",
+      "slug": "airtable",
+      "category": "Productivity",
+      "pricingUrl": "https://www.airtable.com/pricing",
+      "extracted": {
+        "pricesUsd": [
+          20,
+          45
+        ],
+        "minPaidUsd": 20,
+        "maxPublicUsd": 45,
+        "hasFreeTier": true,
+        "mentionsSso": false,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": true,
+        "annualSavePct": null,
+        "mentionsAuditLogs": false,
+        "evidenceSnippets": [
+          "fits or Education Enterprise plans Contact Sales Frequently asked questions How does Airtable&#x27;s pr",
+          "available for $20/user/month when billed annually. Our Business and Enterprise Scale plans include the a"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "annual",
+        "free-tier"
+      ],
+      "findings": [
+        {
+          "id": "airtable-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "Airtable",
+          "slug": "airtable",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "Airtable gates top-tier pricing behind a sales call rather than listing public rates. Highest public tier shown: $45/mo.",
+          "pricingUrl": "https://www.airtable.com/pricing",
+          "severity": 70,
+          "receipt": {
+            "slug": "airtable",
+            "sourceUrl": "https://www.airtable.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:44.319Z",
+            "sha256": "135230b6e6c5812d61488bdada9651cd426d7474e74f1c3008ac294b5ac9c767",
+            "byteLength": 795,
+            "relPath": "receipts/airtable.json"
+          }
+        },
+        {
+          "id": "airtable-annual",
+          "kind": "annual-lockin",
+          "vendor": "Airtable",
+          "slug": "airtable",
+          "headline": "Headline prices assume annual billing",
+          "detail": "Airtable's pricing page highlights annual billing discounts; monthly checkout costs more than the headline $/mo number.",
+          "pricingUrl": "https://www.airtable.com/pricing",
+          "severity": 60,
+          "receipt": {
+            "slug": "airtable",
+            "sourceUrl": "https://www.airtable.com/pricing",
+            "fetchedAt": "2026-11-27T15:49:44.319Z",
+            "sha256": "135230b6e6c5812d61488bdada9651cd426d7474e74f1c3008ac294b5ac9c767",
+            "byteLength": 795,
+            "relPath": "receipts/airtable.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "airtable",
+        "sourceUrl": "https://www.airtable.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:44.319Z",
+        "sha256": "135230b6e6c5812d61488bdada9651cd426d7474e74f1c3008ac294b5ac9c767",
+        "byteLength": 795,
+        "relPath": "receipts/airtable.json"
+      }
+    },
+    {
+      "name": "Miro",
+      "slug": "miro",
+      "category": "Productivity",
+      "pricingUrl": "https://miro.com/pricing/",
+      "extracted": {
+        "pricesUsd": [
+          8,
+          20
+        ],
+        "minPaidUsd": 8,
+        "maxPublicUsd": 20,
+        "hasFreeTier": true,
+        "mentionsSso": true,
+        "hasEnterpriseWall": true,
+        "hasAnnualDiscount": true,
+        "annualSavePct": 20,
+        "mentionsAuditLogs": true,
+        "evidenceSnippets": [
+          "plified sharing and collaboration. Single Sign-On (SSO) Let users access Miro through your identity prov",
+          "rces Enterprise Pricing Enterprise Contact sales Book a demo Where teams and AI work as one Monthly Yea",
+          "ited boards $ 8 /month per member, billed yearly Buy this plan Everything in Free, plus: Unlimited & pr",
+          "diagrams on the canvas, and more … SCIM provisioning Automatically provision, sync, and deacti"
+        ]
+      },
+      "isTransparent": false,
+      "tags": [
+        "ent-wall",
+        "sso-tax",
+        "annual",
+        "free-tier"
+      ],
+      "findings": [
+        {
+          "id": "miro-sso-tax",
+          "kind": "sso-tax",
+          "vendor": "Miro",
+          "slug": "miro",
+          "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+          "detail": "Miro's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+          "pricingUrl": "https://miro.com/pricing/",
+          "severity": 105,
+          "receipt": {
+            "slug": "miro",
+            "sourceUrl": "https://miro.com/pricing/",
+            "fetchedAt": "2026-11-27T15:49:44.470Z",
+            "sha256": "7f4602410d8022bd44cc6fd1a82c2aec28fd8b1470bd0514aaa7dcb02525370e",
+            "byteLength": 993,
+            "relPath": "receipts/miro.json"
+          }
+        },
+        {
+          "id": "miro-ent-wall",
+          "kind": "enterprise-wall",
+          "vendor": "Miro",
+          "slug": "miro",
+          "headline": "Top tier hidden behind 'Contact Sales'",
+          "detail": "Miro gates top-tier pricing behind a sales call rather than listing public rates. Highest public tier shown: $20/mo.",
+          "pricingUrl": "https://miro.com/pricing/",
+          "severity": 70,
+          "receipt": {
+            "slug": "miro",
+            "sourceUrl": "https://miro.com/pricing/",
+            "fetchedAt": "2026-11-27T15:49:44.470Z",
+            "sha256": "7f4602410d8022bd44cc6fd1a82c2aec28fd8b1470bd0514aaa7dcb02525370e",
+            "byteLength": 993,
+            "relPath": "receipts/miro.json"
+          }
+        },
+        {
+          "id": "miro-annual",
+          "kind": "annual-lockin",
+          "vendor": "Miro",
+          "slug": "miro",
+          "headline": "Headline prices assume annual lock-in (20% monthly penalty)",
+          "detail": "Miro's pricing page highlights annual billing discounts; monthly checkout costs more than the headline $/mo number.",
+          "pricingUrl": "https://miro.com/pricing/",
+          "severity": 65,
+          "receipt": {
+            "slug": "miro",
+            "sourceUrl": "https://miro.com/pricing/",
+            "fetchedAt": "2026-11-27T15:49:44.470Z",
+            "sha256": "7f4602410d8022bd44cc6fd1a82c2aec28fd8b1470bd0514aaa7dcb02525370e",
+            "byteLength": 993,
+            "relPath": "receipts/miro.json"
+          }
+        }
+      ],
+      "receipt": {
+        "slug": "miro",
+        "sourceUrl": "https://miro.com/pricing/",
+        "fetchedAt": "2026-11-27T15:49:44.470Z",
+        "sha256": "7f4602410d8022bd44cc6fd1a82c2aec28fd8b1470bd0514aaa7dcb02525370e",
+        "byteLength": 993,
+        "relPath": "receipts/miro.json"
+      }
+    }
+  ],
+  "traps": [
+    {
+      "id": "vercel-sso-tax",
+      "kind": "sso-tax",
+      "vendor": "Vercel",
+      "slug": "vercel",
+      "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+      "detail": "Vercel's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+      "pricingUrl": "https://vercel.com/pricing",
+      "severity": 105,
+      "receipt": {
+        "slug": "vercel",
+        "sourceUrl": "https://vercel.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.363Z",
+        "sha256": "915b324cacdd1e96530c44078860aeb161ee350c63468c9a9e3293208f841623",
+        "byteLength": 876,
+        "relPath": "receipts/vercel.json"
+      }
+    },
+    {
+      "id": "github-sso-tax",
+      "kind": "sso-tax",
+      "vendor": "GitHub",
+      "slug": "github",
+      "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+      "detail": "GitHub's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+      "pricingUrl": "https://github.com/pricing",
+      "severity": 105,
+      "receipt": {
+        "slug": "github",
+        "sourceUrl": "https://github.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.377Z",
+        "sha256": "c7751f8b296cfa1b324c0e369e0433a50a37638c2d13f57307bce7be18031517",
+        "byteLength": 886,
+        "relPath": "receipts/github.json"
+      }
+    },
+    {
+      "id": "cursor-sso-tax",
+      "kind": "sso-tax",
+      "vendor": "Cursor",
+      "slug": "cursor",
+      "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+      "detail": "Cursor's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+      "pricingUrl": "https://cursor.com/pricing",
+      "severity": 105,
+      "receipt": {
+        "slug": "cursor",
+        "sourceUrl": "https://cursor.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.392Z",
+        "sha256": "897c65776f2bb8fdcca8edaf7c425faa8039168e79f2b8b7dfcf62b64612f537",
+        "byteLength": 963,
+        "relPath": "receipts/cursor.json"
+      }
+    },
+    {
+      "id": "anthropic-sso-tax",
+      "kind": "sso-tax",
+      "vendor": "Anthropic",
+      "slug": "anthropic",
+      "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+      "detail": "Anthropic's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+      "pricingUrl": "https://www.anthropic.com/pricing",
+      "severity": 105,
+      "receipt": {
+        "slug": "anthropic",
+        "sourceUrl": "https://www.anthropic.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.459Z",
+        "sha256": "4b8a30ca6b6956c372dc9fb3ae9595a2034f34ec7878e4e3bdc57845739cd9ad",
+        "byteLength": 1045,
+        "relPath": "receipts/anthropic.json"
+      }
+    },
+    {
+      "id": "linear-sso-tax",
+      "kind": "sso-tax",
+      "vendor": "Linear",
+      "slug": "linear",
+      "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+      "detail": "Linear's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+      "pricingUrl": "https://linear.app/pricing",
+      "severity": 105,
+      "receipt": {
+        "slug": "linear",
+        "sourceUrl": "https://linear.app/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.501Z",
+        "sha256": "561273a38b5b60e07d29ed971d71c883f90ca13d6ff2c1e7705ab45c70fa3525",
+        "byteLength": 990,
+        "relPath": "receipts/linear.json"
+      }
+    },
+    {
+      "id": "retool-sso-tax",
+      "kind": "sso-tax",
+      "vendor": "Retool",
+      "slug": "retool",
+      "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+      "detail": "Retool's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+      "pricingUrl": "https://retool.com/pricing",
+      "severity": 105,
+      "receipt": {
+        "slug": "retool",
+        "sourceUrl": "https://retool.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.600Z",
+        "sha256": "16a7a6eea1b471fc21a77b05ca9d596fbbf73d33778fd9c85ab364bd78fbd8d0",
+        "byteLength": 1040,
+        "relPath": "receipts/retool.json"
+      }
+    },
+    {
+      "id": "replit-sso-tax",
+      "kind": "sso-tax",
+      "vendor": "Replit",
+      "slug": "replit",
+      "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+      "detail": "Replit's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+      "pricingUrl": "https://replit.com/pricing",
+      "severity": 105,
+      "receipt": {
+        "slug": "replit",
+        "sourceUrl": "https://replit.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.680Z",
+        "sha256": "799b31f6ad5e4212fd925a93fd7b67f18d5bd4425c2c3c2aa8da939c5c475d5c",
+        "byteLength": 971,
+        "relPath": "receipts/replit.json"
+      }
+    },
+    {
+      "id": "railway-sso-tax",
+      "kind": "sso-tax",
+      "vendor": "Railway",
+      "slug": "railway",
+      "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+      "detail": "Railway's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+      "pricingUrl": "https://railway.com/pricing",
+      "severity": 105,
+      "receipt": {
+        "slug": "railway",
+        "sourceUrl": "https://railway.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.804Z",
+        "sha256": "da9370f2f29b42d6c05292bd81ab2d40c022268a7d9724415467fa099fb70720",
+        "byteLength": 882,
+        "relPath": "receipts/railway.json"
+      }
+    },
+    {
+      "id": "datadog-sso-tax",
+      "kind": "sso-tax",
+      "vendor": "Datadog",
+      "slug": "datadog",
+      "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+      "detail": "Datadog's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+      "pricingUrl": "https://www.datadoghq.com/pricing/",
+      "severity": 105,
+      "receipt": {
+        "slug": "datadog",
+        "sourceUrl": "https://www.datadoghq.com/pricing/",
+        "fetchedAt": "2026-11-27T15:49:43.818Z",
+        "sha256": "7f993604a34f8a0010c59ce7a38a0cef9c9456f3e5f14b7e98b6c2100c537a6a",
+        "byteLength": 1098,
+        "relPath": "receipts/datadog.json"
+      }
+    },
+    {
+      "id": "notion-sso-tax",
+      "kind": "sso-tax",
+      "vendor": "Notion",
+      "slug": "notion",
+      "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+      "detail": "Notion's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+      "pricingUrl": "https://www.notion.com/pricing",
+      "severity": 105,
+      "receipt": {
+        "slug": "notion",
+        "sourceUrl": "https://www.notion.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:43.994Z",
+        "sha256": "636be781765105788a175943a870201dfdc7f819a6d5f2fe73af5298f8c0dc97",
+        "byteLength": 1011,
+        "relPath": "receipts/notion.json"
+      }
+    },
+    {
+      "id": "sentry-sso-tax",
+      "kind": "sso-tax",
+      "vendor": "Sentry",
+      "slug": "sentry",
+      "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+      "detail": "Sentry's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+      "pricingUrl": "https://sentry.io/pricing/",
+      "severity": 105,
+      "receipt": {
+        "slug": "sentry",
+        "sourceUrl": "https://sentry.io/pricing/",
+        "fetchedAt": "2026-11-27T15:49:44.181Z",
+        "sha256": "266a32e0d4acf34f542facca670a380dd116193f8e99f057570776d11444a7fd",
+        "byteLength": 993,
+        "relPath": "receipts/sentry.json"
+      }
+    },
+    {
+      "id": "zapier-sso-tax",
+      "kind": "sso-tax",
+      "vendor": "Zapier",
+      "slug": "zapier",
+      "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+      "detail": "Zapier's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+      "pricingUrl": "https://zapier.com/pricing",
+      "severity": 105,
+      "receipt": {
+        "slug": "zapier",
+        "sourceUrl": "https://zapier.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:44.277Z",
+        "sha256": "a4b29b75dbd35847b0011953aa65b9cb34bc5e42464bfbce2f9900d3eaf6b0a1",
+        "byteLength": 1030,
+        "relPath": "receipts/zapier.json"
+      }
+    },
+    {
+      "id": "slack-sso-tax",
+      "kind": "sso-tax",
+      "vendor": "Slack",
+      "slug": "slack",
+      "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+      "detail": "Slack's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+      "pricingUrl": "https://slack.com/pricing",
+      "severity": 105,
+      "receipt": {
+        "slug": "slack",
+        "sourceUrl": "https://slack.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:44.291Z",
+        "sha256": "eb19d3883feff8327e161e51eaafae230812954c83b713aba0ed20bf7f47659b",
+        "byteLength": 855,
+        "relPath": "receipts/slack.json"
+      }
+    },
+    {
+      "id": "figma-sso-tax",
+      "kind": "sso-tax",
+      "vendor": "Figma",
+      "slug": "figma",
+      "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+      "detail": "Figma's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+      "pricingUrl": "https://www.figma.com/pricing/",
+      "severity": 105,
+      "receipt": {
+        "slug": "figma",
+        "sourceUrl": "https://www.figma.com/pricing/",
+        "fetchedAt": "2026-11-27T15:49:44.301Z",
+        "sha256": "957c1bab27ba3d270409027449893b21031de5010e3633c1bba63816d8ba2c7e",
+        "byteLength": 1062,
+        "relPath": "receipts/figma.json"
+      }
+    },
+    {
+      "id": "loom-sso-tax",
+      "kind": "sso-tax",
+      "vendor": "Loom",
+      "slug": "loom",
+      "headline": "SSO/SAML paired with opaque Enterprise sales wall",
+      "detail": "Loom's pricing page pairs SAML/SSO with \"Contact sales\" / custom Enterprise tiers instead of publishing a flat self-serve price.",
+      "pricingUrl": "https://www.loom.com/pricing",
+      "severity": 105,
+      "receipt": {
+        "slug": "loom",
+        "sourceUrl": "https://www.loom.com/pricing",
+        "fetchedAt": "2026-11-27T15:49:44.312Z",
+        "sha256": "49aa0e10ee96cbf2633ca95be5e588c9de151a603d76a0b1bee292cfcabd916d",
+        "byteLength": 989,
+        "relPath": "receipts/loom.json"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "slug": "webflow",
+      "reason": "fetch failed"
+    }
+  ]
+}

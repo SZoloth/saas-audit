@@ -1,0 +1,291 @@
+{
+  "date": "2026-11-27",
+  "vendors": [
+    {
+      "slug": "vercel",
+      "pricesUsd": [
+        20
+      ],
+      "entWall": true,
+      "sso": true,
+      "sha256": "915b324cacdd1e96530c44078860aeb161ee350c63468c9a9e3293208f841623"
+    },
+    {
+      "slug": "github",
+      "pricesUsd": [
+        4,
+        5,
+        21
+      ],
+      "entWall": true,
+      "sso": true,
+      "sha256": "c7751f8b296cfa1b324c0e369e0433a50a37638c2d13f57307bce7be18031517"
+    },
+    {
+      "slug": "elevenlabs",
+      "pricesUsd": [
+        5,
+        6,
+        8,
+        18,
+        22,
+        37,
+        82,
+        99,
+        249,
+        299,
+        825,
+        990
+      ],
+      "entWall": true,
+      "sso": true,
+      "sha256": "2ab7c47d7e37b42c2a129b536781104978d6ac611c870675ffbe503765592d49"
+    },
+    {
+      "slug": "cursor",
+      "pricesUsd": [
+        8,
+        30,
+        100,
+        200
+      ],
+      "entWall": true,
+      "sso": true,
+      "sha256": "897c65776f2bb8fdcca8edaf7c425faa8039168e79f2b8b7dfcf62b64612f537"
+    },
+    {
+      "slug": "anthropic",
+      "pricesUsd": [
+        17,
+        20,
+        100,
+        200,
+        500
+      ],
+      "entWall": true,
+      "sso": true,
+      "sha256": "4b8a30ca6b6956c372dc9fb3ae9595a2034f34ec7878e4e3bdc57845739cd9ad"
+    },
+    {
+      "slug": "linear",
+      "pricesUsd": [
+        10,
+        16
+      ],
+      "entWall": true,
+      "sso": true,
+      "sha256": "561273a38b5b60e07d29ed971d71c883f90ca13d6ff2c1e7705ab45c70fa3525"
+    },
+    {
+      "slug": "retool",
+      "pricesUsd": [
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        50
+      ],
+      "entWall": true,
+      "sso": true,
+      "sha256": "16a7a6eea1b471fc21a77b05ca9d596fbbf73d33778fd9c85ab364bd78fbd8d0"
+    },
+    {
+      "slug": "posthog",
+      "pricesUsd": [],
+      "entWall": false,
+      "sso": true,
+      "sha256": "3e7ce25ab624116e622404f1d7ec6256387950778c6f4c7c757c569490dd4bb5"
+    },
+    {
+      "slug": "supabase",
+      "pricesUsd": [
+        10,
+        25,
+        75,
+        100
+      ],
+      "entWall": false,
+      "sso": true,
+      "sha256": "20cc24af0e5a4226b9fb9aa395fd27129fcf97bf90452c34cbc184124ce0337c"
+    },
+    {
+      "slug": "replit",
+      "pricesUsd": [],
+      "entWall": true,
+      "sso": true,
+      "sha256": "799b31f6ad5e4212fd925a93fd7b67f18d5bd4425c2c3c2aa8da939c5c475d5c"
+    },
+    {
+      "slug": "railway",
+      "pricesUsd": [
+        300
+      ],
+      "entWall": true,
+      "sso": true,
+      "sha256": "da9370f2f29b42d6c05292bd81ab2d40c022268a7d9724415467fa099fb70720"
+    },
+    {
+      "slug": "datadog",
+      "pricesUsd": [
+        16,
+        20,
+        25,
+        30,
+        40,
+        55,
+        160,
+        200,
+        240
+      ],
+      "entWall": true,
+      "sso": true,
+      "sha256": "7f993604a34f8a0010c59ce7a38a0cef9c9456f3e5f14b7e98b6c2100c537a6a"
+    },
+    {
+      "slug": "flyio",
+      "pricesUsd": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        13,
+        20,
+        29,
+        33,
+        50,
+        66,
+        199,
+        200,
+        500
+      ],
+      "entWall": false,
+      "sso": true,
+      "sha256": "55c7b83f48c22e91b0e93f3f614c2be4e490f7c454617ef9deafbbb65afd5c07"
+    },
+    {
+      "slug": "neon",
+      "pricesUsd": [
+        15,
+        701
+      ],
+      "entWall": true,
+      "sso": false,
+      "sha256": "9b78ea21e4719e104c7c34fbe004d94975659b14e7b29ecf75ad02369603ef6f"
+    },
+    {
+      "slug": "cloudflare",
+      "pricesUsd": [
+        5,
+        7,
+        10,
+        20,
+        25,
+        200,
+        250
+      ],
+      "entWall": true,
+      "sso": true,
+      "sha256": "6de82771fd1abcb15626a4b44565188cad7f3775235d58b825dc57782dfcb8f4"
+    },
+    {
+      "slug": "resend",
+      "pricesUsd": [
+        1
+      ],
+      "entWall": false,
+      "sso": true,
+      "sha256": "c2f27052cbff1a7c9dbe0cfca3c41876a8d25b39627edd452eccb1d15c839d04"
+    },
+    {
+      "slug": "notion",
+      "pricesUsd": [
+        8,
+        10,
+        20
+      ],
+      "entWall": true,
+      "sso": true,
+      "sha256": "636be781765105788a175943a870201dfdc7f819a6d5f2fe73af5298f8c0dc97"
+    },
+    {
+      "slug": "sentry",
+      "pricesUsd": [
+        26,
+        80
+      ],
+      "entWall": true,
+      "sso": true,
+      "sha256": "266a32e0d4acf34f542facca670a380dd116193f8e99f057570776d11444a7fd"
+    },
+    {
+      "slug": "zapier",
+      "pricesUsd": [
+        13,
+        19,
+        33,
+        66,
+        69
+      ],
+      "entWall": true,
+      "sso": true,
+      "sha256": "a4b29b75dbd35847b0011953aa65b9cb34bc5e42464bfbce2f9900d3eaf6b0a1"
+    },
+    {
+      "slug": "slack",
+      "pricesUsd": [],
+      "entWall": true,
+      "sso": true,
+      "sha256": "eb19d3883feff8327e161e51eaafae230812954c83b713aba0ed20bf7f47659b"
+    },
+    {
+      "slug": "figma",
+      "pricesUsd": [
+        3,
+        5,
+        12,
+        16,
+        25,
+        35,
+        55,
+        90
+      ],
+      "entWall": true,
+      "sso": true,
+      "sha256": "957c1bab27ba3d270409027449893b21031de5010e3633c1bba63816d8ba2c7e"
+    },
+    {
+      "slug": "loom",
+      "pricesUsd": [
+        18,
+        24
+      ],
+      "entWall": true,
+      "sso": true,
+      "sha256": "49aa0e10ee96cbf2633ca95be5e588c9de151a603d76a0b1bee292cfcabd916d"
+    },
+    {
+      "slug": "airtable",
+      "pricesUsd": [
+        20,
+        45
+      ],
+      "entWall": true,
+      "sso": false,
+      "sha256": "135230b6e6c5812d61488bdada9651cd426d7474e74f1c3008ac294b5ac9c767"
+    },
+    {
+      "slug": "miro",
+      "pricesUsd": [
+        8,
+        20
+      ],
+      "entWall": true,
+      "sso": true,
+      "sha256": "7f4602410d8022bd44cc6fd1a82c2aec28fd8b1470bd0514aaa7dcb02525370e"
+    }
+  ]
+}

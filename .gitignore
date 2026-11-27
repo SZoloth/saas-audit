@@ -1,0 +1,5 @@
+node_modules/
+dist/
+data/receipts/
+.vercel/
+.DS_Store

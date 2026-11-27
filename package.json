@@ -1,0 +1,19 @@
+{
+  "name": "saas-audit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "crawl": "tsx src/cli.ts crawl",
+    "bake": "tsx src/cli.ts bake",
+    "verify": "tsx src/cli.ts verify"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^5.1.2"
+  }
+}
