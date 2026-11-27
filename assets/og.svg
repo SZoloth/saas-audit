@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#0e0e0d"/>
+  <rect x="36" y="36" width="1128" height="603" rx="20" fill="#161614" stroke="#2c2a26" stroke-width="2"/>
+  <text x="80" y="105" font-family="Menlo, Monaco, monospace" font-size="18" fill="#8f8a80">// public pricing audit · 2026-11-27</text>
+  <text x="80" y="175" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="50" fill="#f5f3ee">SaaS &amp; AI Pricing Audit</text>
+  <text x="80" y="225" font-family="Helvetica, Arial, sans-serif" font-size="27" fill="#a8a298">24 live pricing pages audited straight from public HTML.</text>
+
+  <rect x="80" y="275" width="320" height="230" rx="14" fill="#1f1e1b" stroke="#2f2d28"/>
+  <text x="110" y="325" font-family="Menlo, Monaco, monospace" font-size="16" fill="#f49c8a">CONTACT SALES WALL</text>
+  <text x="110" y="405" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="64" fill="#f5d547">20 / 24</text>
+  <text x="110" y="455" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#a8a298">hide top-tier pricing</text>
+  <text x="110" y="482" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#a8a298">behind sales calls</text>
+
+  <rect x="440" y="275" width="320" height="230" rx="14" fill="#1f1e1b" stroke="#2f2d28"/>
+  <text x="470" y="325" font-family="Menlo, Monaco, monospace" font-size="16" fill="#f5d547">SSO TAX RISK</text>
+  <text x="470" y="405" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="64" fill="#f5f3ee">18 / 24</text>
+  <text x="470" y="455" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#a8a298">pair SAML/SSO with</text>
+  <text x="470" y="482" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#a8a298">custom Enterprise</text>
+
+  <rect x="800" y="275" width="320" height="230" rx="14" fill="#18271e" stroke="#254230"/>
+  <text x="830" y="325" font-family="Menlo, Monaco, monospace" font-size="16" fill="#7fd4a0">TRANSPARENT</text>
+  <text x="830" y="405" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="64" fill="#7fd4a0">4 / 24</text>
+  <text x="830" y="455" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#f5f3ee">Supabase, PostHog,</text>
+  <text x="830" y="482" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#f5f3ee">Resend, Fly.io</text>
+
+  <line x1="80" y1="575" x2="1120" y2="575" stroke="#2c2a26" stroke-width="1.5"/>
+  <text x="80" y="610" font-family="Menlo, Monaco, monospace" font-size="16" fill="#8f8a80">Source: Live public /pricing pages · SHA-256 verified</text>
+  <rect x="915" y="586" width="205" height="34" rx="8" fill="#f5d547"/>
+  <text x="1017" y="609" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="17" fill="#0e0e0d">saas.samzoloth.com</text>
+</svg>

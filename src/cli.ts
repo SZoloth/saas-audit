@@ -117,6 +117,8 @@ function runBake(): void {
   const html = bakeHtml(dataset);
   mkdirSync(join(DIST_DIR, "receipts"), { recursive: true });
   writeFileSync(join(DIST_DIR, "index.html"), html, "utf8");
+  const ogSrc = join(ROOT, "assets", "og.png");
+  if (existsSync(ogSrc)) copyFileSync(ogSrc, join(DIST_DIR, "og.png"));
   for (const v of dataset.vendors) {
     copyFileSync(join(ROOT, "data", v.receipt.relPath), join(DIST_DIR, v.receipt.relPath));
   }

@@ -193,6 +193,18 @@ export function bakeHtml(dataset: BakedSaasDataset): string {
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>SaaS &amp; AI Pricing Audit — Public Pricing Receipts</title>
 <meta name="description" content="SSO taxes, Contact Sales walls, and annual lock-ins audited directly from ${dataset.vendors.length} live SaaS &amp; AI pricing pages.">
+<link rel="canonical" href="https://saas.samzoloth.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://saas.samzoloth.com/">
+<meta property="og:title" content="SaaS &amp; AI Pricing Audit — ${dataset.vendors.length} live pricing pages audited">
+<meta property="og:description" content="Only ${transparentCount} of ${dataset.vendors.length} top SaaS &amp; AI tools skip a Contact Sales wall. Verified SHA-256 receipts for every page.">
+<meta property="og:image" content="https://saas.samzoloth.com/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SaaS &amp; AI Pricing Audit — ${dataset.vendors.length} live pricing pages audited">
+<meta name="twitter:description" content="SSO taxes, Contact Sales walls, and annual billing markups with SHA-256 receipts.">
+<meta name="twitter:image" content="https://saas.samzoloth.com/og.png">
 <meta name="color-scheme" content="light dark">
 <style>
 :root{--canvas:#f4f2ed;--surface:#fff;--ink:#171614;--muted:#625e57;--trapbg:#f8e7e2;--trapink:#9b2c1a;--warnbg:#f7efd8;--warnink:#7c5600;--okbg:#e3f1e8;--okink:#1c5f36;--line:#e8e4dc;--chip:#e9e6df;--accent:#2f4cf5}
