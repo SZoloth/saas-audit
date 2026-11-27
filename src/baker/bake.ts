@@ -210,6 +210,8 @@ export function bakeHtml(dataset: BakedSaasDataset): string {
 :root{--canvas:#f4f2ed;--surface:#fff;--ink:#171614;--muted:#625e57;--trapbg:#f8e7e2;--trapink:#9b2c1a;--warnbg:#f7efd8;--warnink:#7c5600;--okbg:#e3f1e8;--okink:#1c5f36;--line:#e8e4dc;--chip:#e9e6df;--accent:#2f4cf5}
 @media(prefers-color-scheme:dark){:root{--canvas:#121211;--surface:#1c1b19;--ink:#f0ede6;--muted:#a39d93;--trapbg:#3a1d17;--trapink:#f49c8a;--warnbg:#332910;--warnink:#f0cc75;--okbg:#162e20;--okink:#7fd4a0;--line:#2b2926;--chip:#262421;--accent:#6c86ff}}
 *{box-sizing:border-box}
+[hidden]{display:none !important}
+.search input::-webkit-search-cancel-button{-webkit-appearance:none}
 body{margin:0;background:var(--canvas);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
 main{max-width:660px;margin:0 auto;padding:24px 16px 56px}
 h1{margin:0 0 4px;font-size:24px;letter-spacing:-.02em}
